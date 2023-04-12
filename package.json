@@ -1,4 +1,22 @@
 {
+  "name": "ticket-manager-frankoleka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon ./basic-server.js" ,
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RVCC-IDMX/ticket-manager-frankoleka.git"
+  },
+  "author": "Franko Leka <franko9leka@gmail.com> (https://github.com/frankoleka)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RVCC-IDMX/ticket-manager-frankoleka/issues"
+  },
+  "homepage": "https://github.com/RVCC-IDMX/ticket-manager-frankoleka#readme",
   "devDependencies": {
     "nodemon": "^2.0.22"
   }

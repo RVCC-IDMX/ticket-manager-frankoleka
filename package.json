@@ -3,8 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+
+  "nodemonConfig": {
+    "delay": 3000,
+    "ignore": [
+      "docs/*", 
+      "dist/*", 
+      "*/*.css"
+    ]
+  },  
   "scripts": {
-    "watch": "nodemon ./basic-server.js" ,
+    "watch": "nodemon ./basic-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
